@@ -5,15 +5,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d0a76d5d-e0f9-4ecc-ba47-82d53a2ffdfc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>二次曲线.py</StartupFile>
+    <StartupFile>Source.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>test</Name>
     <RootNamespace>test</RootNamespace>
-    <InterpreterId>{fdac16ab-8af0-4f21-a0ff-cc0be1d8a7f5}</InterpreterId>
-    <InterpreterVersion>3.5</InterpreterVersion>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,10 +26,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="二次曲线.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="{fdac16ab-8af0-4f21-a0ff-cc0be1d8a7f5}\3.5" />
+    <Compile Include="Source.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
