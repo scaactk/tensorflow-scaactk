@@ -72,7 +72,7 @@ class TextCNN(object):
 
       # Combine all the pooled features
       num_filters_total = sum(num_filters)
-      self.h_pool = tf.concat(pooled_outputs, 3)
+      self.h_pool = tf.concat(3, pooled_outputs)
       self.h_pool_flat = tf.reshape(self.h_pool, [-1, num_filters_total])
 
       # Add highway
